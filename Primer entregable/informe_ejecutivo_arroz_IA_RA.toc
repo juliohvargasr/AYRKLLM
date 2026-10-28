@@ -1,0 +1,19 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Resumen Ejecutivo}{2}{section.1}%
+\contentsline {section}{\numberline {2}Objetivos}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Objetivo General}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Objetivos Específicos}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Metodología}{2}{section.3}%
+\contentsline {section}{\numberline {4}Benchmarking de Modelos}{2}{section.4}%
+\contentsline {section}{\numberline {5}Análisis Técnico}{3}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Ventajas}{3}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Limitaciones}{3}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Propuestas Técnicas}{3}{section.6}%
+\contentsline {subsection}{\numberline {6.1}YOLOv4-tiny}{3}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}LiSA-MobileNetV2}{3}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}CNN Ligera}{3}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Arquitectura del Sistema}{3}{section.7}%
+\contentsline {section}{\numberline {8}Impacto Esperado}{3}{section.8}%
+\contentsline {section}{\numberline {9}Recomendaciones}{4}{section.9}%
+\contentsline {section}{\numberline {10}Fuentes}{4}{section.10}%
+\contentsline {section}{\numberline {11}Conclusión}{4}{section.11}%

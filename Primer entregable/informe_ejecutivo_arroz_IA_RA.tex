@@ -1,0 +1,119 @@
+
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{longtable}
+\geometry{margin=2.5cm}
+
+\title{Informe Ejecutivo\\
+\large Sistema de Realidad Aumentada e Inteligencia Artificial para la Gestión de Plagas y Enfermedades en el Cultivo de Arroz en el Meta, Colombia}
+\author{Julio Vargas-Riaño}
+\date{Febrero 2026}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Resumen Ejecutivo}
+Este informe presenta un análisis integral y comparativo (benchmarking) de modelos de Inteligencia Artificial (IA) y Visión por Computadora orientados a la detección automática de plagas y enfermedades en el cultivo de arroz, con énfasis en la viabilidad técnica para dispositivos móviles de gama de entrada y gafas de Realidad Aumentada (RA), bajo condiciones de operación \textbf{offline} en zonas rurales del departamento del Meta, Colombia.
+
+\section{Objetivos}
+
+\subsection{Objetivo General}
+Desarrollar un sistema inteligente basado en IA y RA para la detección temprana, clasificación y gestión de plagas y enfermedades del arroz.
+
+\subsection{Objetivos Específicos}
+\begin{itemize}
+\item Evaluar modelos de visión por computadora bajo restricciones de hardware.
+\item Integrar modelos ligeros con sistemas RA.
+\item Permitir diagnóstico en tiempo real sin conectividad.
+\item Reducir el uso innecesario de pesticidas.
+\end{itemize}
+
+\section{Metodología}
+Se realizó una revisión sistemática de literatura (2016–2025), análisis técnico de arquitecturas CNN y YOLO, evaluación experimental y análisis de viabilidad en hardware móvil.
+
+\section{Benchmarking de Modelos}
+
+\begin{longtable}{lcccc}
+\toprule
+Modelo & Arquitectura & Precisión & Parámetros & Offline \\
+\midrule
+YOLOv4-tiny & YOLO Tiny & 97.36\% mAP & 6.0M & Sí \\
+YOLOv5s + Ghost & YOLO + Ghost & 96.1\% mAP & 3.9M & Sí \\
+LiSA-MobileNetV2 & MobileNetV2 + Attn & 95.7\% Acc & 2.0M & Sí \\
+GBiDC-PEST & YOLO + GhostNet & 80.1\% mAP & 1.2M & Sí \\
+EfficientNet-B0 & EfficientNet & 96\% Acc & 5.3M & Sí \\
+Simple CNN & CNN ligera & 93.3\% Acc & 0.8M & Sí \\
+\bottomrule
+\end{longtable}
+
+\section{Análisis Técnico}
+
+\subsection{Ventajas}
+\begin{itemize}
+\item Alta eficiencia computacional.
+\item Operación offline.
+\item Detección multiclase.
+\item Integración con realidad aumentada.
+\end{itemize}
+
+\subsection{Limitaciones}
+\begin{itemize}
+\item Compromiso precisión-velocidad.
+\item Sensibilidad a iluminación variable.
+\item Escalabilidad multiclase limitada.
+\end{itemize}
+
+\section{Propuestas Técnicas}
+
+\subsection{YOLOv4-tiny}
+Modelo principal de detección por su latencia ultra baja y alta precisión.
+
+\subsection{LiSA-MobileNetV2}
+Clasificador optimizado para diagnóstico preciso con bajo consumo de memoria.
+
+\subsection{CNN Ligera}
+Modelo de respaldo para hardware extremadamente limitado.
+
+\section{Arquitectura del Sistema}
+Captura de imagen → Preprocesamiento → Detección → Clasificación → Visualización RA → Recomendaciones.
+
+\section{Impacto Esperado}
+\begin{itemize}
+\item Reducción del 30–45\% en pesticidas.
+\item Incremento del 10–25\% en rendimiento del cultivo.
+\item Mejora ambiental y económica.
+\end{itemize}
+
+\section{Recomendaciones}
+\begin{itemize}
+\item Cuantización INT8.
+\item Limitar a 3–6 enfermedades críticas.
+\item Integrar interfaz de voz offline.
+\item Capacitación rural.
+\end{itemize}
+
+\section{Fuentes}
+\begin{enumerate}
+\item Deng et al. (2023). Agronomy.
+\item Rahman et al. (2018). Biosystems Engineering.
+\item Khanal et al. (2024). arXiv.
+\item Su et al. (2024). Journal of Integrative Agriculture.
+\item Jain et al. (2022). Electronics.
+\item Nayak et al. (2023). Smart Agricultural Technology.
+\item Hasan et al. (2023). Agriculture.
+\item Pan et al. (2024). Frontiers in Plant Science.
+\end{enumerate}
+
+\section{Conclusión}
+La integración de IA ligera y RA representa una solución viable, escalable y sostenible para la agricultura de precisión en Colombia.
+
+\end{document}
